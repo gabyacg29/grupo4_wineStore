@@ -12,25 +12,23 @@ SPRING 1
       b.	Audiencia Objetivo
       c.	¿Cómo Ajustaremos la oferta a ese público?
 3.	Buscar inspiración en referentes del mercado
+      
       a.	Por productos o servicios que ofrecen
        https://www.bodegasbianchi.com.ar/collections/ofertas?gclid=CjwKCAjwvZv0BRA8EiwAD9T2VcQ0UBuVt4COESm8NBp-KQ-HkAqEuoh2s-        hkBLdV3lGwLBbCwf4JDhoC4scQAvD_BwE
        https://www.cristobal.com.ar/
        
       b.	Clientes a los que apuntan
       https://www.espaciovino.com.ar/
+      https://wine-up.com.ar/es/
       
       c.	Por la estética que presentan
       https://es.wix.com/website-template/view/html/2067?siteId=7bb873c9-43d5-4068-aa16-bb562a4c0047&metaSiteId=cf08d942-1d37-4b31-a0c9-7443356273e7&originUrl=https%3A%2F%2Fes.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fonline-store%2Ffood-drinks-ecom
       
       d.	Por las funcionalidades implementadas
       
-            https://www.bodegasbianchi.com.ar/collections/ofertas?gclid=CjwKCAjwvZv0BRA8EiwAD9T2VcQ0UBuVt4COESm8NBp-KQ-HkAqEuoh2s-        hkBLdV3lGwLBbCwf4JDhoC4scQAvD_BwE
+            https://www.bodegasbianchi.com.ar/collections/ofertas?gclid=CjwKCAjwvZv0BRA8EiwAD9T2VcQ0UBuVt4COESm8NBp-KQ-HkAqEuoh2s-      hkBLdV3lGwLBbCwf4JDhoC4scQAvD_BwE
             
             
-            
-      
-      
-      
 4.	Crear un wireframe o boceto del sitio
       a.	Secciones
             i.	Home
