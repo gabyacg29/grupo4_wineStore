@@ -39,5 +39,13 @@ SPRING 1
       b.	Diseño del sitio:
             i.	Definir logo
             ii.	Colores
+                  #000000
+                  #FFFFFF
+                  #707070
+                  #BEBDBF-#5F5F60
+                  #5F5F60-#131313(97%)
+                  #5F5F60-#131313
+                  #464B59-#0E0F12(71%)
             iii.	Tipografías
+                  calibri
 5.	Entrega Spring 1
