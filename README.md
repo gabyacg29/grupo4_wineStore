@@ -29,13 +29,16 @@ SPRING 1
             https://www.bodegasbianchi.com.ar/collections/ofertas?gclid=CjwKCAjwvZv0BRA8EiwAD9T2VcQ0UBuVt4COESm8NBp-KQ-HkAqEuoh2s-      hkBLdV3lGwLBbCwf4JDhoC4scQAvD_BwE
             
             
-4.	Crear un wireframe o boceto del sitio - Programa utilizado - XD adobe -
+4.	Crear un wireframe o boceto del sitio - Programa utilizado - XD Adobe -
       a.	Secciones
             i.	Home
             ii.	Detalle del producto
             iii.	Carrito de compra
-            iv.	Formulario de registro
-            v.	Formulario de carga de producto (para el administrador)
+            iv.	Pagos
+            v.    Formulario de registro
+            vi.	Formulario de carga de producto (para el administrador)
+            vii.  Registro
+            viii. Prototipo
       b.	Diseño del sitio:
             i.	Definir logo
             ii.	Colores
