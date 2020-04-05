@@ -8,9 +8,9 @@ SPRING 1
       b.	Integrantes: Santiago Biskupovich, Gabriela Cinquemani, Facundo Navarro, Mariela Vallecillo.
       c.	URL: https://github.com/gabyacg29/grupo4_wineStore.git
 2.	Definir la temática del Market Place
-      a.	Productos que brindará nuestro sitio - Tienda de vinos finos -
-      b.	Audiencia Objetivo - Mayores de 18 años  - ABC1
-      c.	¿Cómo Ajustaremos la oferta a ese público?
+      a.	Productos que brindará nuestro sitio - Tienda de vinos finos en botella -
+      b.	Audiencia Objetivo - Mayores de 18 años  - ABC1 - Nuestro cliente es una persona que tenga conocimientos basicos de internet y pueda realizar la busqueda y compra de vinos finos, con una edad minima de 18 años y debera manejar los canales de pago (tarjeta de credito, debito u otros)
+      c.	¿Cómo Ajustaremos la oferta a ese público? Se ofertaran solo vinos embotellados, descartando otro tipo envases(tetra o baginbox), apuntando al segmento medio y alto de la vitivinicultura.
 3.	Buscar inspiración en referentes del mercado
       
       a.	Por productos o servicios que ofrecen
