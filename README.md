@@ -53,5 +53,5 @@ SPRING 1
                   #5F5F60-#131313
                   #464B59-#0E0F12(71%)
             iii.	Tipografías
-                  calibri
+                 Segoe UI
 5.	Entrega Spring 1
