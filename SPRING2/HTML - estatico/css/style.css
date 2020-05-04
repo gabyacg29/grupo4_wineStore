@@ -197,7 +197,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    border: 10px solid rgb(82, 82, 82);
+    border: 20px solid rgb(82, 82, 82);
     box-sizing: border-box;
     background-color: white;
 }
