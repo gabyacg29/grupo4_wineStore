@@ -1,0 +1,93 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+ 
+    margin:0;
+    padding: 0;
+    font-family: calibri;
+    background-color: steelblue;
+   
+}
+
+.box {
+
+    margin: 0 auto; 
+    max-width: 425px;
+    background-color:#ebebeb;                
+    color:#464B59;      
+    border: solid;
+    border-color:#777A8C;
+    border-width: 15px;    
+    border-radius: 25px;   
+    
+    
+    
+}
+
+.encabezado {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    color:#1F2A40;  
+    
+   
+
+}
+
+.datosPersonales {
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.domicilio{
+  
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.piePagina{
+ 
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+   
+
+p {
+  font-size: 15px;
+  margin: 10 20px;
+  color:#1F2A40;
+
+}
+
+@media (min-width: 768px){
+
+.domicilio {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+   
+
+}
+p{
+    font-size:1.1em;
+}
+.box {
+
+    margin: 0 auto; 
+    max-width: 960px;
+    background-color:#ebebeb;                
+    color:#464B59;      
+
+}
+}
