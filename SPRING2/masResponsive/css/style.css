@@ -1,30 +1,60 @@
-:root {
-    margin: 0;
-    padding: 0;
+*{
+   
     box-sizing: border-box;
+    
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #464B59;
+    margin:0;
+    padding:0;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.container{
+    max-width:1140px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #464B59;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+
+}
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 15px;
+}
 /*----------------------------------- Imagen de Fondo -----------------------------*/
 .d-size{
-    width: 100%;
+
+margin: 0 auto;       
+display: flex;
+flex-direction: column;
+
+
 }
+.d-size{
+    align-items: center;
+}
+
 .imagenC{
-    margin-left: -5px;
-    height: 756px;
+    width: 85%;
+   
+
 }
+
+
+
 /*---------------------------------------Fin Imagen de Fondo-----------------------*/
 
 /*------------------------------Inicio Form Contacto-------------------------------*/
 .d-left{
-    display: flex;
-    float: right;
+    position: relative;
+    left: 336px;
     width: 40%;
     margin-top: -120px;
     margin-bottom: 10px;
@@ -33,6 +63,8 @@ body {
     width: 70%;
     overflow: hidden;
     text-align: center;
+   
+    
 }
 .block-tittle{
     box-sizing: border-box;
@@ -74,32 +106,27 @@ body {
 
 /*------------------------------Inicio footer general-------------------------------*/
 .footer{
-    vertical-align: middle;
+    display:flex;
+    flex-direction: row;
     height: 75px;
-    display: flex;
     width: 100%;
     color: white;
-    overflow: hidden;
     background: rgb(155, 157, 157);
     background: linear-gradient(117deg, rgba(155, 157, 157, 1) 40%, rgba(9, 9, 9, 1) 100%, rgba(95, 95, 96, 0.026114669500612697) 100%);
 }
+
 .footer boxR{
     width: 50%;
-    float: right;
-    text-align: right;
-    height: 100%;
-    font-size: 12px;
+    height: 100%;   
     font-weight: bold;
     padding-top: 30px;
+   
 }
 .footer boxL{
     display: flex;
-    height: 100%;
-    align-items: center;
+    height: 100%;;
     justify-content: center;
-    vertical-align: middle;
     width: 50%;
-    font-size: 22px;
     font-weight: bold;
 }
 .footerElement{
@@ -107,25 +134,38 @@ body {
     height: 40px;
     width: 40px;
 }
+
+.derechos{
+    position:relative;
+    left: 112px;
+    color:white;
+}
+
+
+
 /*---------------------------------- fin footer general---------------------------------------*/
 
 /*---------------------------------- Inicio Barra Diagonal---------------------------------------*/
 .b-block{
     width: 100%;
-    height: 300px;
+    height: 345px;
     align-items: center;
     overflow: hidden;
-    padding-top: 140px;
+    padding-top: 82px;
+   
 }
 .barra{
-    margin-left: -27px;
+    
     transform: rotate(-9deg);
     background: #E6DADA;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 108%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space space-between;
+   
+    
     height: 150px;
 }
 .barra a{
@@ -140,6 +180,8 @@ body {
     display: flex;
     width: 50%;
     align-items: center;
+    
+    
 }
 .section1 li{
     list-style: none;
@@ -151,6 +193,7 @@ body {
     width: 35%;
     display: flex;
     align-items: center;
+   
 }
 .section2 li{
     list-style: none;
@@ -245,7 +288,175 @@ body {
 }
 /* -------------------------- Fin index -------------------------------------------------------*/
 
+@media (max-width: 992px){
+    .container{
+        min-width:768px ;
+    }
+    .d-left{
+        position: relative;
+        left: 300px;
+        width: 40%;
+        margin-top: -120px;
+        margin-bottom: 10px;
+    }
+    
+    h4{
+        font-size: 0.6em;
+    }
+    .derechos{
+        position:relative;
+        left: 88px;
+        font-size: 0.8em;
+        color:white;
+    }
+}
 
+
+@media (max-width: 900px){
+
+    .barra{
+    
+        transform: rotate(-9deg);
+        background: #E6DADA;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 108%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 118px;
+    }
+    .d-left{
+        position: relative;
+        left: 240px;
+        width: 40%;
+        margin-top: -120px;
+        margin-bottom: 10px;
+    }
+    .derechos{
+        position:relative;
+        left: 70px;
+        color:white;
+    }
+
+}
+@media (max-width:880px){
+    
+    h4{
+        font-size: 0.6em;
+    }
+
+    .d-left{
+        position: relative;
+        left: 240px;
+        width: 40%;
+        margin-top: -120px;
+        margin-bottom: 10px;
+    }
+    .derechos{
+        position:relative;
+        left: 70px;
+        color:white;
+    }
+   
+}
+
+@media (max-width: 767px){
+    .container{
+        min-width: 575px;
+    }
+
+    .container{
+
+        max-width:767px;
+        margin:0 auto;
+    }
+    .d-left{
+        position: relative;
+        left: 200px;
+        width: 40%;
+        margin-top: -120px;
+        margin-bottom: 10px;
+    }
+    
+    .derechos{
+        position:relative;
+        left: 37px;
+        color:white;
+    }
+    
+    h4{
+        font-size: 0.4em;
+    }
+    
+
+
+    h3{
+        font-size: 0.5em;
+        margin-top: 28px;
+    }
+    
+
+    .barra{
+    
+        transform: rotate(-9deg);
+        background: #E6DADA;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 108%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        height: 118px;
+    }
+
+    .section1{
+
+        width: 123%;
+    }
+
+    .section2{
+        width:110%
+    }
+    .d-left{
+        position: relative;
+        left: 50px;
+        width: 40%;
+        margin-top: -120px;
+        margin-bottom: 10px;
+    }
+
+    .footer{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height: 95px;
+        width: 100%;
+        color: white;
+        background: rgb(155, 157, 157);
+        background: linear-gradient(117deg, rgba(155, 157, 157, 1) 40%, rgba(9, 9, 9, 1) 100%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+    }
+
+    .footer boxr{
+        padding-top: 0;
+        color:white;
+        
+    }
+
+    .d-left{
+        position: relative;
+        left: 118px;
+        width: 40%;
+        margin-top: -120px;
+        margin-bottom: 10px;
+    }
+    .derechos{
+        font-size: 0.6em;
+        left:95px;
+        color:white;
+             
+    }
+}
 
 /*-----------------------formulairo registro-----------------*/
 
@@ -278,12 +489,9 @@ body {
 
 }
 
-h3 {
+.registro {
     text-align: center;
-}
-
-.pregistro{
-    color: #1F2A40;
+    color:#1F2A40;
 }
 
 .datosPersonales {
@@ -312,11 +520,15 @@ h3 {
 p {
   font-size: 15px;
   margin: 10 20px;
-  color: #1F2A40;
+  
 
 }
 
 @media (min-width: 768px){
+
+.box{
+    max-width: 960px;
+}
 
 .domicilio {
     display:flex;

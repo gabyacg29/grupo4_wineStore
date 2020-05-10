@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: red;
 }
 
 body {
@@ -244,100 +245,3 @@ body {
     background: radial-gradient(circle, rgba(9, 9, 9, 1) 28%, rgba(155, 157, 157, 1) 98%, rgba(95, 95, 96, 0.026114669500612697) 100%);
 }
 /* -------------------------- Fin index -------------------------------------------------------*/
-
-
-
-/*-----------------------formulairo registro-----------------*/
-
-.box {
-
-    margin: 0px auto; 
-    max-width: 425px;
-    background-color:#ebebeb;                
-    color:#464B59;      
-    border: solid;
-    border-color:#777A8C;
-    border-width: 15px;    
-    border-radius: 25px;   
-    position:relative;
-    bottom:10px;
-    
-    
-    
-}
-
-.encabezado {
-
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 20px;
-    color:#1F2A40;  
-    
-   
-
-}
-
-h3 {
-    text-align: center;
-}
-
-.pregistro{
-    color: #1F2A40;
-}
-
-.datosPersonales {
-    
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.domicilio{
-  
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.piePagina{
- 
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-
-}
-   
-
-p {
-  font-size: 15px;
-  margin: 10 20px;
-  color: #1F2A40;
-
-}
-
-@media (min-width: 768px){
-
-.domicilio {
-    display:flex;
-    flex-direction:row;
-   
-    
-}
-
-
-p{
-    font-size:1.1em;
-    margin:3px 3px;
-}
-.box {
-
-    margin: 0 auto; 
-    max-width: 960px;
-    background-color:#ebebeb;                
-    color:#464B59;      
-
-}
-
-}
-

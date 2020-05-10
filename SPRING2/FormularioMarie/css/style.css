@@ -22,7 +22,8 @@ body {
     border: solid;
     border-color:#777A8C;
     border-width: 15px;    
-    border-radius: 25px;   
+    border-radius: 25px;  
+  
     
     
     
@@ -40,6 +41,9 @@ body {
 
 }
 
+h3 {
+    text-align: center;
+}
 .datosPersonales {
     
     display:flex;
@@ -83,11 +87,27 @@ p{
     font-size:1.1em;
 }
 .box {
-
+    
     margin: 0 auto; 
     max-width: 960px;
     background-color:#ebebeb;                
     color:#464B59;      
 
 }
+}
+
+.menu{
+    display:flex;
+}
+
+.barra{
+    margin-left: -27px;
+    transform: rotate(-9deg);
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 60%%;
+    
+    justify-content: space-between;
+    height: 150px;
 }

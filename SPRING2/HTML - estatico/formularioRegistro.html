@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Wine Store</title>
+</head>
+
+<body id="body-home">
+
+        <div class="d-size">
+            <img class="imagenC" src="img/vino2.png">
+        </div>
+
+        <div class="i-block">
+            <a class="btn-tienda" href="#">Ir <br>a la Tienda</a>
+        </div>
+
+        <!-- Inicio Menu---------------------------------------------------------->
+        <div class="b-block">
+            <div class="barra">
+                <ul class="section1">
+                    <li>
+                        <img id="logo" src="img/logo.png">
+                    </li>
+                    <li>
+                        <a href="home.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="productos.html">PRODUCTOS</a>
+                    </li>
+                    <li>
+                        <a href="#formulario-contacto">CONTACTO</a>
+                    </li>
+                </ul>
+                <ul class="section2">
+                    <li>
+                        <a href="ingreso.html">INGRESAR</a></li>
+                    <li>
+                        <a href="registro.html">REGISTRARSE</a>
+                    </li>
+                    <li>
+                        <img id="carrito" src="img/carrito.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Fin Menu------------------------------------------------------------>
+
+
+
+
+
+        <!-- Formulario de Contacto -------------------------------------->
+        <div class='box'>
+            <header>
+                
+    
+               
+            </header>
+    
+            <section class='encabezado'>
+                <h1>Registro del Contacto</h1>
+                <h3>Por favor intresa tus datos para registrarte en nuestro sitio</h3>
+                <p> ¿ya estás Registrado? <a href='#'>Entrar aquí</a></p>
+                
+            </section>   
+            
+            <section class='form'>
+                <form action='./succes.html' method='post'>
+                    
+                    <article class='datosPersonales'>  
+                        <h3>Datos Personales</h3> 
+                        <p><input  type='nombre'  name='nombre' id='' placeholder="Ingrese nombre y apellido" required></p>
+                        <p><input  type='email'  name='email' id='' placeholder="Ingrese email" required></p>
+                        <p><input  type='password'  name='contraseña' id='' placeholder="Ingrese contraseña" required></p>
+                        <p><input  type='password'  name='contraseña' id='' placeholder="Reingrese contraseña" required></p>
+                        
+                        
+                        <p><label>Ingresa fecha de nacimiento</label></p>
+                        <p><input  type='date'  name='date' id='' required></p>
+                        <p><input  type='number'  name='DNI' id='' placeholder="Ingrese DNI" required></p>
+                        
+                        
+                        
+                        
+                    </article>
+                    
+                    <h3>Domicilio de envío</h3>
+                    
+                    <section class='domicilio'>
+                        
+                        <article class='datosDomicilio'>
+                            <p><input  type='text'  name='domicilio' id='CA' placeholder="calle" required></p>
+                            <p> <input  type='number'  name='numero' id='N' placeholder="Ingrese número" required>
+                                <p><input  type='number'  name='Codigo Postal' id='CA' placeholder="Ingrese código postal" required></p>
+                            </article>
+                            
+                            <article class='localidad'>
+                                
+                                <p><label>Localidad</label></p>
+                                <p><select name = 'localidad'>Localidad</p>
+                                    <option value =''selected desable hidden>Elija una opción</option>
+                                    <option value ='CA'>Capital</option>
+                                    <option value ='GC'>Godoy Cruz</option>
+                                    <option value ='Guy'>Guaymallén</option>
+                                    <option value ='LC'>Lujan de Cuyo</option>
+                                    <option value ='CC'>Chacras de Coria</option>
+                                    <option value ='LA'>Lavalle</option>
+                                    <option value ='Al'>Alvear</option>
+                                    <option value ='Mal'>Malargue</option>
+                                    <option value ='OT'>otro</option>
+                                </select>
+                                
+                                <p><input type = 'text' name='localidad' placeholder="¿cuál otra localidad?"></p>
+                            </article>
+                            
+                            
+                            <article>
+                                <p><label>Provincia</label></p>
+                                <p><select name = 'provincia' >Provincia</p>
+                                    <option value =''selected desable hidden>Elija una opción</option>
+                                    <option value ='Mdza'>Mendoza</option>
+                                    <option value ='SJ'>San Juan</option>
+                                    <option value ='NQ'>Neuquen</option>
+                                    <option value ='SL'>San Luis</option>
+                                    <option value ='OT'>Otra</option>
+                                </select>
+                                <p><input type = 'text' name='provinicia' placeholder="¿cuál otra provincia?"></p>
+                            </article> 
+                            
+                            
+                            <article class='pais'>
+                                <p><label>País</label></p>
+                                <p><select name = 'país'>País</p>
+                                    <option value =''selected desable hidden>Elija una opción</option>
+                                    <option value ='AR'>Argentina</option>
+                                    <option value ='OT'>otro</option>
+                                </select>
+                                <p><input type = 'text' name='país' placeholder="¿cuál otro país?"></p>
+                            </article>     
+                            
+                        </section>   
+                        
+                        <section class='piePagina'>
+                            <p><label>¿Quieres recibir información sobre novedades y ofertas de Winestore?</label></p>
+                            <p><input type='radio'name = 'recibir'value='s'checked>si</p>
+                            <p><input type='radio' name = 'recibir'value ='n'>no</p>
+                            
+                            
+                            <p><button  type='submit'>Enviar</button></p>
+                            <p><button  type='reset'>Limpiar</button></p>
+                            
+                        </section>
+                        
+                    </form> 
+                    
+                
+                
+                </section>
+    
+
+
+        <!-- Inicio Fotter---------------------------------------------------------->
+        <div class="footer" class="footer">
+            <boxL>
+                SEGUINOS EN
+                <img class="footerElement" src="iconos/facebookblanco64.png">
+                <img class="footerElement" src="iconos/instagramblanco64.png">
+                <img class="footerElement" src="iconos/twitterblanco64.png">
+            </boxL>
+            <boxR>
+                Derechos Reservados a Wine Store -2020-
+            </boxR>
+        </div>
+        <!-- Fin Fotter-------------------------------------------------------------->
+
+</body>
+
+</html>
