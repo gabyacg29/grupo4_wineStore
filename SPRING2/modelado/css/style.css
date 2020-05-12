@@ -178,8 +178,41 @@ a{
 	width: 100%;
 	height: 100%;
 }
-
-
+.contenedor{
+	text-align: center;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+.contcarrito{
+	background-color: white;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	flex-direction: column;
+	min-height: 100px;
+}
+.columnachica{
+width: 15%;
+}
+.columnagrande{
+width: 40%;
+}
+.btncarrito{
+	display: flex;
+	flex-direction: row;
+}
+.botoncarrito{
+	width: 200px;
+}
+.noventa{
+	width: 90%;
+}
+.btntotal{
+	text-align: right;
+}
 
 /* Tablet */
 @media (min-width: 700px) {
