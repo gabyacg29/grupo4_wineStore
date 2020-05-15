@@ -179,7 +179,7 @@ width: 40%;
 	text-align: right;
 }
 
-/* Tablet */
+/* #######                                      Tablet */
 @media (min-width: 700px) {
 	body {
 	  width: 768px;
@@ -379,7 +379,7 @@ width: 40%;
 
 
 
-	
+
 	.red{
 		width: 100%;
 		display: flex;
@@ -452,7 +452,7 @@ width: 40%;
 		font-size: 20px;
 	}
   }
-/* Desktop */
+/* ####                                                Desktop */
 @media (min-width: 1000px) {
 	body {
 	  width: 100%;
