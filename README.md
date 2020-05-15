@@ -1,7 +1,7 @@
 # grupo4_wineStore
 REPO grupo4_wineStore
 
-SPRING 1
+SPRINT 1
 
 1.	Crear Repositorio
       a.	Grupo 4
@@ -54,6 +54,6 @@ SPRING 1
                   #464B59-#0E0F12(71%)
             iii.	Tipografías
                  Segoe UI - calibri
-5.	Entrega Spring 1
+5.	Entrega Sprint 1
 
 https://reetro-io.herokuapp.com/board/5e9dfc84f249690016e644e5/5e9dfe55f249690016e6450a
