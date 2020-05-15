@@ -57,3 +57,24 @@ SPRINT 1
 5.	Entrega Sprint 1
 
 https://reetro-io.herokuapp.com/board/5e9dfc84f249690016e644e5/5e9dfe55f249690016e6450a
+
+SPRINT2
+
+
+1.	Retrospectiva
+2.	Completar un tablero de trabajo y github
+3.	Crear la estructura de archivos utilizando Node + Express
+      Entregable: Implementación de estructura MVC para proyecto de Node.
+      crear la carpeta site para guardar su sitio.
+4.	Página: home del sitio
+      Entregable: Archivo index.html junto con todos los recursos necesarios, estilos de css e imágenes.
+5.	Página: detalle de producto
+      Entregable: Archivo productDetail.html (o similar) junto con todos los recursos necesarios, estilos de css e imágenes.
+6.	Página: carrito de compras
+      Página donde el cliente puede visualizar su compra actual y proceder al pago. 
+      Entregable: Archivo productCart.html (o similar) junto con todos los recursos necesarios, estilos de css e imágenes.
+7.	Página: registro
+      Entregable: Archivo register.html (o similar) junto con todos los recursos necesarios, estilos de css e imágenes.
+8.	Página: formulario de carga de producto
+      Entregable: Archivo productAdd.html (o similar) junto con todos los recursos necesarios, estilos de css e imágenes.
+
