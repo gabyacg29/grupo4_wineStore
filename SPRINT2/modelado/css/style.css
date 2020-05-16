@@ -548,7 +548,8 @@ a {
 	.titulopagos{
 		display: flex;
 		justify-content: center;
-		color: white;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
 	.contpagos{
 		background-color: lightgray;
