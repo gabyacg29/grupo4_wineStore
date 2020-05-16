@@ -576,7 +576,10 @@ table{
 		width: 300px;
 		height: 400px;
 		margin: auto;
-	}
+    }
+    .itemcontpagos{
+        width: 200px;
+    }
 }
 
 
