@@ -305,24 +305,328 @@ a {
 .btncarrito {
     display: flex;
     flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .botoncarrito {
     width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.noventa {
+table, th, td {
+    border: 1px solid black;
+    
+  }
+table{
     width: 90%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
+  
 
 .btntotal {
     text-align: right;
 }
 
 
+
 /* #######                                      Tablet */
 
 @media (min-width: 700px) {
+	body {
+	  width: 768px;
+	  background-color: white;
+	  box-sizing: border-box;
+	}
+	/* clases a reutilizar */
+	.btn-dark{
+		font-size: 25px;
+		text-decoration: none;
+		margin: 5px;
+		padding: 5px;
+		width: 100%;
+		color: white;
+		background: rgb(163,163,163);
+	background: radial-gradient(circle, rgba(163,163,163,1) 0%, rgba(37,37,37,1) 91%);
+		border-radius: 5px;
+		box-shadow: 0px 0px 3px black;
+	}
+	/* unicos no se repiten */
+	.copa-m{
+		height: 200px;
+	}
+	/* footer */
+	.footer{
+		padding-top: 5px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 60px;
+		background: rgb(155, 157, 157);
+		background: linear-gradient(117deg, rgba(155, 157, 157, 1) 40%, rgba(9, 9, 9, 1) 100%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+	}
+	.f-bloque-iz{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+	}
+	.f-bloque-de{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+	}
+
+	.img-portada{
+		height: 430px;
+		margin-left: -1px;
+	}
+	.portada{
+		overflow: hidden;
+	}
+	.b1-portada{
+		margin-top: -50px;
+		width: 100%;
+		height: 100px;
+		margin-bottom: -80px;
+	}
+	.ir-tienda{
+		display: flex;
+		flex-direction: row;
+		margin: auto;
+		width: 150px;
+		text-align: center;
+	}
+	/* Barra Principal */
+	.yellow{
+		padding-top: 70px;
+		align-items: center;
+		overflow: hidden;
+		height: 150px;
+	}
+	.b-menu{
+		margin-left: -35px;
+		transform: rotate(-10deg);
+		width: 110%;
+		height: 80px;
+		display: flex;
+		background-color: grey;
+	}
+	.sec1{
+		margin-right: 30px;
+		width: 50%;
+		align-items: center;
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		justify-items: right;
+	}
+	.sec2{
+		margin-left: 30px;
+		width: 50%;
+		align-items: center;
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+	}
+	.carrito{
+		height: 30px;
+		border-radius: 50%;
+	}
+	.li-barra{
+		margin-left: 10px;
+	}
+	.contactanos{
+		margin-bottom: 20px;
+		margin-top: -80px;
+	}
+	.form-contacto{
+		margin-left: 50%;
+		width: 40%;
+	}
+	.cabecera{
+		width: 100%;
+		text-align: center;
+		font-size: 30px;
+	}
+	.formulario{
+		font-size: 30px;
+		width: 100%;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		box-sizing: border-box;
+		border-radius: 15px;
+		background: rgb(9, 9, 9);
+    	background: radial-gradient(circle, rgba(9, 9, 9, 1) 28%, rgba(155, 157, 157, 1) 98%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+	}
+	.form-contact-input{
+		width: 90%;
+		margin: 10px;
+		box-sizing: border-box;
+	}
+	.form-contact-input2{
+		width: 90%;
+		margin: 10px;
+		height: 50px;
+		box-sizing: border-box;
+	}
+	.btn-enviar{
+		margin: auto;
+		width: 100px;
+		height: 30px;
+	}
+	.red{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		background-color: red;
+	}
+	.blue{
+		width: 85%;
+		margin: auto;
+		background-color: blue;
+	}
+	.grey{
+		width: 25%;
+		padding: 5px;
+		float: left;
+		background-color: salmon;
+		box-sizing: border-box;
+	}
+	.prod-grilla1{
+		height: 150px;
+		border-radius: 8px 8px 0px 0px;
+		background-color: cadetblue;
+	}
+	.prod-grilla2{
+		align-items: center;
+		padding-bottom: 5px;
+		border-radius: 0px 0px 8px 8px;
+		background-color: chartreuse;
+	}
+	.pg-linea1{
+		padding-top: 2px;
+		padding-bottom: 1px;
+		text-align: center;
+		display: flex;
+		flex-direction: row;
+		background-color: yellow;
+	}
+	.pg-linea2{
+		display: flex;
+		align-items: center;
+		padding-top: 2px;
+		padding-bottom: 6px;
+		background-color: crimson;
+	}
+	.pgl-1{
+		width: 65%;
+		padding: 5px;
+	}
+	.pgl-2{
+		width: 35%;
+		padding: 5px;
+	}
+	.pgl-3{
+		margin: auto;
+	}
+	.pgl-3-f{
+		font-size: 12px;
+	}
+	.ir-al-carrito{
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.iac-btn{
+		width: 150px;
+		margin: auto;
+	}
+	.iacb-f{
+		font-size: 20px;
+	}
+/*pagos*/
+	.titulopagos{
+		display: flex;
+		justify-content: center;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	.contpagos{
+		background-color: lightgray;
+		color: gray;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 15px;
+		flex-direction: column;
+		width: 300px;
+		height: 400px;
+		margin: auto;
+	}
+}
+
+
+
+
+/* Desktop */
+@media (min-width: 1000px) {
+	body {
+	  width: 100%;
+	  background-color: white;
+	}
+	/* unicos no se repiten */
+	.copa-m{
+		height: 300px;
+	}
+	/* footer */
+	.footer{
+		padding-top: 5px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 60px;
+		background: rgb(155, 157, 157);
+		background: linear-gradient(117deg, rgba(155, 157, 157, 1) 40%, rgba(9, 9, 9, 1) 100%, rgba(95, 95, 96, 0.026114669500612697) 100%);
+	}
+	.f-bloque-iz{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+	}
+	.f-bloque-de{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+	}
+
+	.img-portada{
+		height: 820px;
+		margin-left: -5px;
+	}
+	.portada{
+		background-color: red;
+		overflow: hidden;
+	}
     body {
         width: 768px;
     }
