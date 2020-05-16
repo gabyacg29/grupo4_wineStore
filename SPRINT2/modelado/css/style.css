@@ -311,13 +311,15 @@ a {
     width: 200px;
 }
 
-.noventa {
+.noventa{
     width: 90%;
+    border: 2px, solid, black;
 }
 
 .btntotal {
     text-align: right;
 }
+
 
 
 /* #######                                      Tablet */
