@@ -292,6 +292,7 @@ a {
     border-radius: 15px;
     flex-direction: column;
     min-height: 100px;
+    margin-bottom: 20px;
 }
 
 .columnachica {
