@@ -437,7 +437,29 @@ width: 40%;
 	.iacb-f{
 		font-size: 20px;
 	}
-  }
+/*pagos*/
+	.titulopagos{
+		display: flex;
+		justify-content: center;
+		color: white;
+	}
+	.contpagos{
+		background-color: lightgray;
+		color: gray;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 15px;
+		flex-direction: column;
+		width: 300px;
+		height: 400px;
+		margin: auto;
+	}
+}
+
+
+
+
 /* Desktop */
 @media (min-width: 1000px) {
 	body {
@@ -484,4 +506,3 @@ width: 40%;
 		background-color: red;
 		overflow: hidden;
 	}
-}
