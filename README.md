@@ -62,19 +62,19 @@ SPRINT2
 
 
 1.	Retrospectiva
-2.	Completar un tablero de trabajo y github
-3.	Crear la estructura de archivos utilizando Node + Express
-      Entregable: Implementación de estructura MVC para proyecto de Node.
+2.	Completar un tablero de trabajo y github -Gaby
+3.	Crear la estructura de archivos utilizando Node + Express - Facundo y Gaby
+      Entregable: Implementación de estructura MVC para proyecto de Node. Facundo y Gaby
       crear la carpeta site para guardar su sitio.
-4.	Página: home del sitio
+4.	Página: Inicio y home del sitio - Gaby
       Entregable: Archivo index.html junto con todos los recursos necesarios, estilos de css e imágenes.
-5.	Página: detalle de producto
+5.	Página: detalle de producto - Facundo
       Entregable: Archivo productDetail.html (o similar) junto con todos los recursos necesarios, estilos de css e imágenes.
-6.	Página: carrito de compras
+6.	Página: carrito de compras -Santiago
       Página donde el cliente puede visualizar su compra actual y proceder al pago. 
       Entregable: Archivo productCart.html (o similar) junto con todos los recursos necesarios, estilos de css e imágenes.
-7.	Página: registro
+7.	Página: registro - Mariela
       Entregable: Archivo register.html (o similar) junto con todos los recursos necesarios, estilos de css e imágenes.
-8.	Página: formulario de carga de producto
+8.	Página: formulario de carga de producto -Facundo
       Entregable: Archivo productAdd.html (o similar) junto con todos los recursos necesarios, estilos de css e imágenes.
 
