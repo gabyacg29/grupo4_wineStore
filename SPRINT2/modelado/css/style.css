@@ -577,10 +577,10 @@ table{
 		height: 400px;
 		margin: auto;
 	}
+.itemcontpagos{
+        width: 200px;
+    }
 }
-
-
-
 
 /* Desktop */
 @media (min-width: 1000px) {
