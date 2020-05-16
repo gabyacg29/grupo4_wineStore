@@ -889,6 +889,17 @@ table{
     .iacb-f {
         font-size: 20px;
     }
+    .contcarrito {
+        background-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        flex-direction: column;
+        min-height: 100px;
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -943,6 +954,17 @@ table{
     .portada {
         background-color: red;
         overflow: hidden;
+    }
+    .contcarrito {
+        background-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        flex-direction: column;
+        min-height: 100px;
+        margin-bottom: 20px;
     }
 }
 
