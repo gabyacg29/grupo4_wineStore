@@ -622,7 +622,6 @@ table{
 		width: 100%;
 		height: 100%;
 	}
-
 	.img-portada{
 		height: 820px;
 		margin-left: -5px;
@@ -998,12 +997,6 @@ table{
     justify-content: center;
     overflow-x: hidden;
 }
-.areaDeProductos{
-    width: 660px;
-    overflow-x: hidden;
-    justify-content: center;
-    padding: auto;
-}
 .areaDeProducto{
     width: 330px;
     height: 380px;
@@ -1299,5 +1292,9 @@ table{
               
                
            }
+            /* ## Elemento variable Grilla de Productos   */
+            .areaDeProductos{
+                width: 1320px;
+            }
          
      }
