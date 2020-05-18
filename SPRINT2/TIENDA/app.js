@@ -34,7 +34,7 @@ app.use('/', homeRouter);
 app.use('/pagos', pagosRouter);
 app.use('/productos', productosRouter);
 app.use('/registro', registroRouter);
-app.use('/users', usersRouter);
+app.use('/ingreso', usersRouter);
 
 
 
