@@ -8,7 +8,22 @@ a {
   color: #00B7FF;
 }
 
-
+/* Colores */
+.gris{
+  background-color: #777A8C;
+}
+.grisOscuro{
+  background-color: #464B59;
+}
+.negro{
+  background-color: #06080D;
+}
+.azul{
+  background-color: #1F2A40;
+}
+.azulTipoGris{
+  background-color: #181D26;
+}
 
 
 
