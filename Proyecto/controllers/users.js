@@ -15,7 +15,8 @@ var modelUsers = {
 // fin borrado.
 
 let formularioIngreso = (req, res) => {
-    res.send('Formulario de ingreso');
+    // res.send('Formulario de ingreso');
+    res.render('index', {title: 'Formulario de Login'});
 };
 let validacionUsuario = (req, res) => {
     let {mail,contrasenia} = req.body;
@@ -27,7 +28,8 @@ let validacionUsuario = (req, res) => {
     }
 };
 let formularioRegistro = (req, res) => {
-    res.send('Formulario de registro');
+    // res.send('Formulario de registro');
+    res.render('index', {title: 'Formulario de Registro'});
 };
 let registrandoUsuario = (req, res) => {
     let {nombre,apellido,email,contrasenia,categoria,imagen} = req.body;
