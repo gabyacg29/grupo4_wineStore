@@ -1,4 +1,10 @@
 /* ## GABRIELA ## */
+
+*{
+  box-sizing: border-box;
+
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -25,7 +31,9 @@ a {
   background-color: #726765;
 }
 
-
+.gris-claro{
+  background-color: #ebebeb;
+}
 
 
 
@@ -199,3 +207,168 @@ a {
 
 
 /* ## MARIELA ## */
+
+/* ## productos## */
+
+
+
+
+.container-fluid{
+
+  background-color: #DAC9C1;
+}
+.productos{
+
+  border:solid;
+  border-radius: 5px;
+  border-color:#712B42 ;
+  border-width: 10px;
+  background-color:#ebebeb;
+  margin:10px 3px;
+  padding:5px 15px;
+  color:#0C0910;
+  
+   
+}
+
+.productos-h2{
+  margin-top: 5px;
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.fa-cart-plus{
+  margin-left: 5px;
+  color:#C23C5E
+}
+
+
+@media(max-width:1440px){
+  .foto-producto{
+      position: relative;
+      right:6px;
+      width: 90%;
+
+  }
+  
+  .descuento{
+
+     position: relative;
+     left: 100px;
+     bottom:31px;
+
+  }
+
+  .price{
+      font-size: 0.95em;
+  }
+
+}
+
+
+
+  @media(max-width:1440px){
+
+  .foto-producto{
+          position: relative;
+          right:6px;
+          width: 90%;
+ 
+      }
+      
+      .descuento{
+ 
+         position: relative;
+         left: 100px;
+         bottom:31px;
+         font-size: 0.95em;
+ 
+      }
+
+
+  
+
+  .price{
+      font-size: 0.95em;
+  }
+
+}
+
+@media(max-width:1000px){
+  .foto-producto{
+      position: relative;
+      right:6px;
+      width: 90%;
+
+  }
+  
+  .descuento{
+
+     position: relative;
+     left: 66px;
+     bottom:26px;
+     font-size: 0.8em;
+  }
+
+  .price{
+      font-size: 0.8em;
+  }
+
+}
+
+
+@media(max-width:991px){
+  .foto-producto{
+      position: relative;
+      left:30px
+
+  }
+  
+  .descuento{
+
+     position: relative;
+     left: 185px;
+     bottom:36px;
+     
+  }
+
+  
+
+}
+
+@media(max-width:576px){
+.foto-producto{
+   position: relative;
+   left:45px
+
+}
+
+.descuento{
+
+  position: relative;
+  left: 300px;
+  bottom:36px;
+
+}
+}
+
+
+
+
+@media(max-width:460px){
+  .foto-producto{
+      position: relative;
+      left:15px
+
+  }
+  
+  .descuento{
+
+     position: relative;
+     left: 185px;
+     bottom:36px;
+
+  }
+ }
+
+ /* ## fin productos## */
