@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// Lee el archivo Json
+// Lee el archivo Json y devuelve objeto literal
 function readJSONfile() {
      return JSON.parse(fs.readFileSync(users.JSON, 'utf-8'));
 }
@@ -8,8 +8,9 @@ function readJSONfile() {
 function saveJSONfile(objetos) {
    fs.writeFileSync(users.file, JSON.stringify(objetos, null, ''));
 }
+//-----------------------------------------//
 // Alta de usuario
-function agregarUsuario(usuario) {
+function agregarUsuario(nombre,apellido,email,contrasenia,categoria,imagen) {
    let usuarios = readJSONfile();
    usuarios.push(usuario);
    saveJSONfile(usuarios);
