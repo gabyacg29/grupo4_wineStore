@@ -1,22 +1,9 @@
 
+<!DOCTYPE html>
 <html>
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap Grid Stylesheet -->
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-         
-       <!-- Font Awesome Stylesheet -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-       
-        <link rel="stylesheet" href="css/style.css">
-        <title>Wine Store</title>
-    </head>
-
-
-
-<body>
+  <%- include('./partials/head.ejs')%>
+  <body>
+    <%- include('./partials/header.ejs')%>
 
 
 <section class= 'container-fluid'>   
@@ -52,7 +39,7 @@
 
     <div  class='col-sm-12 col-md-6 col-lg-3'>
     <article class='productos'>
-        <img  src='/img/productos/vino3.png' alt='vino3' style= 'width:95%' class='foto-producto'>
+        <img  src='/img/productos/vino3.png' alt='vino3' class='foto-producto'>
         <h2 class='price'>$389.410</h2>
         <p class='descuento' >20% OFF</p>
         <p>Agregar al carrito<i class="fas fa-cart-plus"></i></p>
@@ -82,7 +69,7 @@
 
 </section>
 
-
+<%- include('./partials/footer.ejs')%>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

@@ -50,194 +50,121 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* ## MARIELA ## */
+  
+  /* ## productos## */
+  
+  a{
+    color: #712B42;
+}
+
 .gris-claro{
   background-color: #ebebeb;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ## MARIELA ## */
-
-/* ## productos## */
-
-
-
-
 .container-fluid{
 
-  background-color: #DAC9C1;
+  background-color: #DAC9C1 ;
 }
 .productos{
-
+  height: 85vh;;
   border:solid;
   border-radius: 5px;
   border-color:#712B42 ;
@@ -250,10 +177,10 @@ body {
    
 }
 
-.productos-h2{
-  margin-top: 5px;
-  margin-left: 30px;
-  padding-top: 15px;
+.price{
+  margin-top: 15px;
+  margin-left: 10px;
+  
 }
 
 .fa-cart-plus{
@@ -262,28 +189,18 @@ body {
 }
 
 
-@media(max-width:1440px){
-  .foto-producto{
-      position: relative;
-      right:6px;
-      width: 90%;
 
-  }
-  
-  .descuento{
-
-     position: relative;
-     left: 100px;
-     bottom:31px;
-
-  }
 
   .price{
       font-size: 0.95em;
+      
   }
 
-}
 
+  .fa-hand-point-right{
+      margin-left: 3px;
+      color: #712B42;
+  }
 
 
   @media(max-width:1440px){
@@ -299,7 +216,7 @@ body {
  
          position: relative;
          left: 100px;
-         bottom:31px;
+         bottom:24px;
          font-size: 0.95em;
  
       }
@@ -325,7 +242,7 @@ body {
 
      position: relative;
      left: 66px;
-     bottom:26px;
+     bottom:23px;
      font-size: 0.8em;
   }
 
@@ -339,7 +256,9 @@ body {
 @media(max-width:991px){
   .foto-producto{
       position: relative;
-      left:30px
+      left:30px;
+      bottom:22px;
+      width:34%;
 
   }
   
@@ -347,7 +266,7 @@ body {
 
      position: relative;
      left: 185px;
-     bottom:36px;
+     bottom:26px;
      
   }
 
@@ -365,8 +284,8 @@ body {
 .descuento{
 
   position: relative;
-  left: 300px;
-  bottom:36px;
+  left: 172px;
+  bottom:20px;
 
 }
 }
@@ -391,3 +310,297 @@ body {
  }
 
  /* ## fin productos## */
+ .detalleProducto{
+      height: 85vh;
+      
+      border:solid;
+      border-radius: 5px;
+      border-color:#712B42 ;
+      border-width: 5px;
+      background-color:#ebebeb;
+      margin:10px 3px;
+      padding:25px 15px;
+      color:#0C0910;
+
+      padding-top: 100px;
+      text-align: center;
+
+      
+       
+    }
+
+    .producto{
+      height: 85vh;;
+      border:solid;
+      border-radius: 5px;
+      border-color:#712B42 ;
+      border-width: 10px;
+      background-color:#ebebeb;
+      margin:10px 3px;
+      padding:50px 15px;
+      color:#0C0910;
+      
+       
+    }
+
+    @media(max-width:1440px){
+
+      .foto-producto{
+              
+              width: 35%;
+              position: relative;
+              left:100px;
+              
+     
+          }
+
+          
+      }
+
+
+ /* ## Registro## */
+
+ .avatar{
+
+  position:relative;
+  right:50px;
+}
+   
+    
+.registro{
+
+position: relative;
+left:200px;
+padding-left:100px;
+padding-top:30px;
+padding-bottom: 30px;
+border:solid;
+border-color:  #712B42;
+border-radius: 5px;
+margin:10px ;
+background-color: #DAC9C1;
+
+
+}
+
+
+.btn-primary{
+
+    background-color: #712B42 ;
+    
+}
+
+#registroC{
+   background-color:#6567;
+}
+
+@media(max-width:768px){
+.registro{
+
+
+padding-left:30px;
+}
+.avatar{
+position:relative;
+right:15px;
+font-size: 0.8em;
+}
+
+}
+
+
+
+
+
+
+
+
+
+ /* ## index## */
+
+ #index-back{
+  border:solid;
+  border-width: 10px;
+  border-radius: 5px;
+  border-color:#712B42; 
+  background-color: #DAC9C1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+
+
+}
+
+#logo-index{
+  width: 30%;
+  
+}
+
+.copa{
+  width: 50%;
+  position: relative;
+  left:100px;
+  border:solid;
+  border-radius: 5px;
+  border-color:#712B42 ;
+}
+
+#div-arriba{
+
+ padding-bottom: 50px;
+ color:#0C0910;
+ text-align: center;
+ 
+}
+.h4-index{
+
+color:#0C0910;
+ text-align: left;
+}
+#div-abajo{
+
+ margin-left: 100px;
+ 
+}
+#form{
+
+ text-align: left;
+ 
+}
+
+#copa{
+  position: relative;
+  left:150px;
+}
+
+.btnS{
+ position: relative;
+ left:50px;
+}
+
+.btnN{
+
+ position: relative;
+ left:150px;
+ bottom: 54px;
+}
+
+@media(max-width:768px){
+
+.copa{
+ width: 60%;
+ position: relative;
+ left:20px;
+ 
+}
+.h4-index{
+
+font-size:0.9em;
+ }
+ #div-abajo{
+
+  margin-left: 50px;
+  
+ }
+ .btnS{
+   position: relative;
+   left:6px;
+  }
+
+  .btnN{
+
+   position: relative;
+   left:80px;
+   bottom: 54px;
+  }
+}
+
+@media(max-width:768px){
+
+#arriba{
+
+font-size: 1.5em;
+}
+
+#div-abajo{
+
+margin-left: 5px;
+
+}
+
+
+}
+
+@media(max-width:768px){
+.btn-primary{
+ width: 35%;
+}
+.h4-index{
+
+ font-size: 0.8em;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
