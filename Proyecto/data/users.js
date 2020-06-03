@@ -37,16 +37,19 @@ function buscarPorEmail(email) {
    return user;
 };
 // Baja de usuario
-function eliminarUsuario(arr, email) {
-   for (var i = 0; i < arr.length; i++) {
-      if (arr[i].email === email) {
-         arr.splice(i, 1)
-         return;
+function eliminarUsuario(email) {
+   let usuarios = readJSONfile();
+   for (var i = 0; i < (usuarios.length); i++) {
+      let cursor = usuarios[i];
+      if (email === cursor.Email) {
+         arr.splice(i, 1);
       }
    }
 }
 // Exportar
 module.exports = {
-   Alta: agregarUsuario
-   Baja: eliminarUsuario
+   Alta: agregarUsuario,
+   Consulta: buscarPorEmail,
+   Baja: eliminarUsuario,
+
 }
