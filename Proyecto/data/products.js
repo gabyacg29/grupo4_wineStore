@@ -23,16 +23,9 @@ function addProductToList(nombreProducto, descripcion, imagen, categoria, color,
     saveJSONfile(productos);
 }
 // Busca un producto por su id
-function buscarPorId(idDeProducto) {
+function buscarTodos() {
     let productos = readJSONfile();
-    let producto = null;
-    for (var i = 0; i < (productos.length); i++) {
-        let cursor = productos[i];
-        if (idDeProducto == cursor.Productos) {
-            producto = cursor;
-        }
-    }
-    return user; // si no lo encuentra devuelve null
+    return productos; // si no lo encuentra devuelve null
 }
 //Modificar producto
 function modificar(id, nombreProducto, descripcion, imagen, categoria, color, precio) {
