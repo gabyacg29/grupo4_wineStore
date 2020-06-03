@@ -1,5 +1,4 @@
 const fs = require('fs');
-var path = require('path');
 
 // Lee el archivo Json
 function readJSONfile() {
@@ -16,8 +15,6 @@ function agregarUsuario(usuario) {
    saveJSONfile(usuarios);
 }
 
-let userController = {
-    archivo: path.join(__dirname, '..') + '/usuarios.json',
 //Consulta de usuario
 buscarPorEmail: function(email){
    let archivoJson = readJSONfile();

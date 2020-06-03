@@ -1,5 +1,4 @@
 const fs = require('fs');
-var path = require('path');
 
 // Lee el archivo Json
 function readJSONfile() {
