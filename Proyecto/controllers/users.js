@@ -48,5 +48,5 @@ module.exports = {
     Registrando: registrandoUsuario,
     FormEdicion: prueba,
     Editando: prueba,
-    Detalle: prueba,
+    Detalle: detalleUsuario,
 };
