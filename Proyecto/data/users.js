@@ -36,11 +36,6 @@ function buscarPorEmail(email) {
    }
    return user;
 };
-
-//Modificar usuario
-
-
-
 // Baja de usuario
 function eliminarUsuario(arr, email) {
    for (var i = 0; i < arr.length; i++) {
