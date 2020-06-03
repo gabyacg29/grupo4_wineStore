@@ -360,6 +360,7 @@ body {
 
  /* ## Registro## */
 
+ 
  .avatar{
 
   position:relative;
@@ -367,22 +368,37 @@ body {
 }
    
     
-.registro{
-
-position: relative;
-left:200px;
-padding-left:100px;
+#registro{
+margin-top: 20px;
+margin-bottom: 20px;
 padding-top:30px;
 padding-bottom: 30px;
 border:solid;
 border-color:  #712B42;
 border-radius: 5px;
-margin:10px ;
 background-color: #DAC9C1;
+padding-left: 100px
+
+}
+#form{
+justify-content: center;
+}
+
+.dos{
+
+border:solid;
+border-radius: 5px;
+border-color: #712B42;
+}
+.uno{
+border:solid;
+border-radius: 5px;
+border-color: #712B42;
+height:7vh;
+width: 80%;
 
 
 }
-
 
 .btn-primary{
 
@@ -395,11 +411,7 @@ background-color: #DAC9C1;
 }
 
 @media(max-width:768px){
-.registro{
 
-
-padding-left:30px;
-}
 .avatar{
 position:relative;
 right:15px;
@@ -407,12 +419,15 @@ font-size: 0.8em;
 }
 
 }
+@media(max-width:425px){
+
+#registro{
+
+padding-left: 20px;
 
 
-
-
-
-
+}
+}
 
 
 
