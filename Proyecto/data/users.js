@@ -2,7 +2,7 @@ const fs = require('fs');
 
 // Lee el archivo Json y devuelve objeto literal
 function readJSONfile() {
-     return JSON.parse(fs.readFileSync(users.JSON, 'utf-8'));
+   return JSON.parse(fs.readFileSync(users.JSON, 'utf-8'));
 }
 // Guarda el json de usuarios
 function saveJSONfile(objetos) {
@@ -10,7 +10,7 @@ function saveJSONfile(objetos) {
 }
 //-----------------------------------------//
 // Alta de usuario
-function agregarUsuario(nombre,apellido,email,contrasenia,categoria,imagen) {
+function agregarUsuario(nombre, apellido, email, contrasenia, categoria, imagen) {
    let nuevoUsuario = {
       Nombre: nombre,
       Apellido: apellido,
@@ -25,30 +25,33 @@ function agregarUsuario(nombre,apellido,email,contrasenia,categoria,imagen) {
 }
 
 //Consulta de usuario
-buscarPorEmail: function(email){
-   let archivoJson = readJSONfile();
-   let user = null;
-   archivoJson.forEach((elem, i) => {
-     if (elem["email"] == email) {
-        user = elem;
-     }
-   });
+function buscarPorEmail(email) {
+   let usuarios = readJSONfile();
+   let user = undefined;
+   for (var i = 0; i < (usuarios.length); i++) {
+      let cursor = usuarios[i];
+      if (email == cursor.Email) {
+         user = cursor;
+      }
+   }
    return user;
+};
+
 //Modificar usuario
 
 
 
 // Baja de usuario
 function eliminarUsuario(arr, email) {
-    for(var i = 0; i < arr.length; i++) {
-       if(arr[i].email === email) {
+   for (var i = 0; i < arr.length; i++) {
+      if (arr[i].email === email) {
          arr.splice(i, 1)
          return;
-       }
-    }
-  }
+      }
+   }
+}
 // Exportar
 module.exports = {
-   Alta: (function agregarUsuario)
-   Baja: (function eliminarUsuario)
+   Alta: agregarUsuario
+   Baja: eliminarUsuario
 }
