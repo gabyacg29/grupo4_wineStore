@@ -27,7 +27,7 @@ function Individualizar (arrProductos, id) {
 let consulta = (req, res) => {
     let productos = modelProducts.Consulta();
     // res.render({productos: productos});
-    res.render('index', {title: 'Consulta de productos'});
+    res.render('products', {title: 'Consulta de productos'});
 };
 let formularioAlta = (req, res) => {
     // res.send('Formulario para Alta');
@@ -38,7 +38,7 @@ let detalleProducto = (req, res) => {
     let productos = modelProducts.Consulta();
     let productoIndividual = Individualizar(productos, id);
     // res.send({producto: productoIndividual});
-    res.render('index', {title: 'Detalle de Producto Individual'});
+    res.render('detalleProducto', {title: 'Detalle de Producto Individual'});
 };
 let crearProducto = (req, res) => {
     let {nombreProducto,descripcion,imagen,categoria,color,precio} = req.body;

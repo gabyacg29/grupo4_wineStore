@@ -14,7 +14,7 @@ let validacionUsuario = (req, res) => {
     }
 };
 let formularioRegistro = (req, res) => {
-    res.render('index', {title: 'Formulario de Registro'});
+    res.render('registro', {title: 'Formulario de Registro'});
     // a la espera de formulario de registro de Mariela.
 };
 let registrandoUsuario = (req, res) => {
