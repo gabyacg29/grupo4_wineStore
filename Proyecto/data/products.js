@@ -24,7 +24,7 @@ function addProductToList(producto) {
       }
     });
     return producto; // si no lo encuentra devuelve null
-},
+}
 // Eliminar producto
 delete_deleteProduct: function(req, res){
     let producto = productoController.searchByCode(req.params.codigo);
@@ -36,4 +36,4 @@ delete_deleteProduct: function(req, res){
     saveJSONfile(nuevoArrayProductos);
     let mensaje = "¡Success!: el producto se eliminó de la lista.";
     return res.redirect("/productos");
- },
+ }
