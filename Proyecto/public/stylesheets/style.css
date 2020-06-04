@@ -5,6 +5,11 @@
 
 }
 
+a {
+  color:#712B42;
+ 
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -151,9 +156,7 @@ body {
   
   /* ## productos## */
   
-  a{
-    color: #712B42;
-}
+  
 
 .gris-claro{
   background-color: #ebebeb;
