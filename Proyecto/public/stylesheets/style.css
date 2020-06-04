@@ -11,7 +11,6 @@ a {
 }
 
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 /* Colores */
@@ -153,6 +152,11 @@ body {
 
 
  /* ## MARIELA ## */
+
+.advertencia{
+  height: 100vh;
+  color: black;
+}
   
   /* ## productos## */
   
@@ -162,10 +166,6 @@ body {
   background-color: #ebebeb;
 }
 
-.container-fluid{
-
-  background-color: #DAC9C1 ;
-}
 .productos{
   height: 85vh;;
   border:solid;
