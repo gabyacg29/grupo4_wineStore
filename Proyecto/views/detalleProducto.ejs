@@ -10,47 +10,36 @@
   <%- include('./partials/header.ejs')%>
     <!-- Fin Menu------------------------------------------------------------>
 
+    <div class='container'>
 
-    <section class= 'container-fluid'>   
-        <h2 class='productos-h2'>Detalle del Producto</h2>
-     <div class='row'> 
-    
-        
-    
-       <div class='col-sm-12 col-md-6 col-lg-6'>
-        <article class='producto'>
-            <img  src='/img/productos/vino1.jpg' alt='vino1' class='foto-producto'>
-            <h2 class='price' >$150.970</h2>
-            <p class='descuento'>10% OFF</p>
-            <p>Agregar al carrito<i class="fas fa-cart-plus"></i></p>
-            
-        </article>
-       </div>  
-        
-       <div class='col-sm-12 col-md-6 col-lg-6'>
-        <article class='detalleProducto'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, labore deleniti vero dolore quisquam adipisci a provident dolorem natus molestiae 
-                culpa corrupti est consequuntur sint aperiam voluptates nobis nemo eius.
-            
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus totam nisi, eius expedita corrupti provident qui ipsum accusamus ullam voluptatum
-               iste maiores harum aspernatur reiciendis alias. Saepe accusamus reprehenderit odio.
-            </p>
-            
-    
-        </article>
-    </div>  
-         
-    
-    
-        
+        <div class='row'>
+            <div class="col-12"id="titulo-detalleP">
+                <h2 class="productos-h2">Detalle del Producto</h2>
+                
+            </div>
         </div>
+
+        <div class='row'>
+            <div class='col-6'id='foto-detalleP'>
+                <img  src='/img/productos/vino1.jpg' alt='vino1' >
+                <p id='agregar'>Agregar al carrito<i class="fas fa-cart-plus" style='color:whitesmoke'></i></p>
+            </div>
+            
+            <div class='col-6'id='descripcion'>
+                <h2> Clase: Vino Tino - Cavernet Souvenion </h2>
+                <h2 class='price' >$150.970</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, labore deleniti vero dolore quisquam adipisci a provident dolorem natus molestiae 
+                    culpa corrupti est consequuntur sint aperiam voluptates nobis nemo eius.
+                    
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus totam nisi, eius expedita corrupti provident qui ipsum accusamus ullam voluptatum
+                    iste maiores harum aspernatur reiciendis alias. Saepe accusamus reprehenderit odio.
+                </p>
+            </div>
+            
+        </div>
+        
+    </div>
     
-    </section>
-
-
-
-    
- 
 
     <!-- Inicio Fotter---------------------------------------------------------->
     <%- include('./partials/footer.ejs')%>
