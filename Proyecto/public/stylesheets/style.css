@@ -7,6 +7,7 @@
 
 a {
   color:#712B42;
+ 
 }
 
 body {
@@ -27,22 +28,6 @@ body {
 }
 .marron{
   background-color: #726765;
-}
-/* Colores de texto */
-.t-fucsia{
-  color: #C23C5E;
-}
-.t-bordo{
-  color: #712B42;
-}
-.t-negro{
-  color: #0C0910;
-}
-.t-beige{
-  color: #DAC9C1;
-}
-.t-marron{
-  color: #726765;
 }
 /*----menu de navegación----*/
 .nav-item.nav-link{
@@ -168,6 +153,10 @@ body {
 
  /* ## MARIELA ## */
 
+.advertencia{
+  height: 100vh;
+  color: black;
+}
   
   /* ## productos## */
   
@@ -475,7 +464,7 @@ padding-left: 20px;
 }
 
 .copa{
-  height: 250px;
+  width: 50%;
   position: relative;
   left:100px;
   border:solid;
@@ -506,6 +495,10 @@ color:#0C0910;
  
 }
 
+#copa{
+  position: relative;
+  left:150px;
+}
 
 .btnS{
  position: relative;
