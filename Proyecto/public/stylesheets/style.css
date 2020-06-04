@@ -558,7 +558,67 @@ margin-left: 5px;
 }
 
 
+/* ## DetalleProducto## */
+    
+  
 
+#titulo-detalleP{
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  color:#0C0910;
+  background-color:#DAC9C1 ;
+}
+
+#foto-detalleP{
+  padding-top:50px;
+  padding-left: 5px;
+  background-color: #712B42;
+  color:whitesmoke;
+  margin-bottom: 10px;
+}
+
+#descripcion{
+
+  text-align: center;
+  background-color:#DAC9C1 ;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
+#agregar{
+  margin-top: 10px;
+  position: relative;
+  left:80px;
+}
+
+@media(max-width:540px){
+
+
+  #descripcion h2{
+    font-size: 1.25em;
+
+  }
+
+  #descripcion{
+    font-size: 0.8em;
+  }
+
+  #agregar{
+    
+    position: relative;
+    left:10px;
+  }
+
+
+#titulo-detalleP h2{
+
+font-size: 1.25em;
+}
+
+
+}
 
 
 
