@@ -146,20 +146,31 @@ body {
 
 
 
-
-
-
-
-
-
  /* ## MARIELA ## */
+
+
+   /* ## login ## */
+  
+   .fa-sign-in-alt {
+    margin-left:10px;
+  }
+ #login{
+   margin-right: 50px;
+  }
+  
+
+
+/* botones forms---*/
+
  #btn-form{
   position:relative;
   left:60px
 }
   /* ## productos## */
   
-  
+  a{
+    color: #712B42;
+}
 
 .gris-claro{
   background-color: #ebebeb;
@@ -169,152 +180,86 @@ body {
 
   background-color: #DAC9C1 ;
 }
+
+.productos-h2{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .productos{
-  height: 85vh;;
+  height: 75vh;;
   border:solid;
   border-radius: 5px;
   border-color:#712B42 ;
   border-width: 10px;
   background-color:#ebebeb;
   margin:10px 3px;
-  padding:5px 15px;
-  color:#0C0910;
-  
+  padding-top: 20px;
+  padding-left:20px;
+  color:#0C0910; 
    
+}
+.tituloV{
+  text-align: left;
+  margin-top:3px;
+  font-weight:bold;
+
+}
+.descuento{
+
+  position:relative;
+  left:170px;
+  bottom:30px;
+}
+@media(max-width:1300px){
+
+.foto-producto{
+  width: 80%;
 }
 
 .price{
-  margin-top: 15px;
-  margin-left: 10px;
-  
-}
-
-.fa-cart-plus{
-  margin-left: 5px;
-  color:#C23C5E
-}
-
-
-
-
-  .price{
-      font-size: 0.95em;
-      
-  }
-
-
-  .fa-hand-point-right{
-      margin-left: 3px;
-      color: #712B42;
-  }
-
-
-  @media(max-width:1440px){
-
-  .foto-producto{
-          position: relative;
-          right:6px;
-          width: 90%;
-          padding-top: 30px;
- 
-      }
-      
-      .descuento{
- 
-         position: relative;
-         left: 100px;
-         bottom:24px;
-         font-size: 0.95em;
- 
-      }
-
-
-  
-
-  .price{
-      font-size: 0.95em;
-  }
-
-}
-
-@media(max-width:1000px){
-  .foto-producto{
-      position: relative;
-      right:6px;
-      width: 90%;
-
-  }
-  
-  .descuento{
-
-     position: relative;
-     left: 66px;
-     bottom:23px;
-     font-size: 0.8em;
-  }
-
-  .price{
-      font-size: 0.8em;
-  }
-
-}
-
-
-@media(max-width:991px){
-  .foto-producto{
-      position: relative;
-      left:30px;
-      bottom:22px;
-      width:34%;
-
-  }
-  
-  .descuento{
-
-     position: relative;
-     left: 185px;
-     bottom:26px;
-     
-  }
-
-  
-
-}
-
-@media(max-width:576px){
-.foto-producto{
-   position: relative;
-   left:45px
-
+  font-size:1.25em;
 }
 
 .descuento{
 
-  position: relative;
-  left: 172px;
-  bottom:20px;
+  position:relative;
+  left:80px;
+  bottom:23px;
+  font-size: 0.9em;
+}
 
+}
+@media(max-width:991px){
+
+
+.foto-producto{
+  width: 80%;
+}
+.price{
+  font-size:1.3em;
+}
+
+.descuento{
+
+  position:relative;
+  left:175px;
+  bottom:27px;
+  font-size: 1em;
+}
+
+}
+
+@media(max-width:767px){
+.foto-producto{
+  width: 40%;
+}
+.descuento{
+ left:97px;
 }
 }
 
 
-
-
-@media(max-width:460px){
-  .foto-producto{
-      position: relative;
-      left:15px
-
-  }
-  
-  .descuento{
-
-     position: relative;
-     left: 185px;
-     bottom:36px;
-
-  }
- }
 
  /* ## fin productos## */
 

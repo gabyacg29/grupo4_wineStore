@@ -31,7 +31,7 @@ let consulta = (req, res) => {
 };
 let formularioAlta = (req, res) => {
     // res.send('Formulario para Alta');
-    res.render('index', {title: 'Formulario de Alta de Producto'});
+    res.render('altaProducto', {title: 'Formulario de Alta de Producto'});
 };
 let detalleProducto = (req, res) => {
     let id = req.params.id;
