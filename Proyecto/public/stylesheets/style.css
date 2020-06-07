@@ -181,6 +181,16 @@ body {
   background-color: #DAC9C1 ;
 }
 
+
+/*-----tuve que poner este Id y generar containers para cada sección home porque se desalieban los bordes, cosa que no pasa en las otras views*/
+
+#home{
+
+  padding-left: 3px;
+  padding-right:3px;
+
+}
+
 .productos-h2{
   text-align: center;
   padding-top: 10px;
