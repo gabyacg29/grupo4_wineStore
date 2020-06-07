@@ -614,7 +614,10 @@ font-size: 1.25em;
 
   }
 
-
+  #filaP{
+    justify-content: center;
+    
+      }
 
 
 
