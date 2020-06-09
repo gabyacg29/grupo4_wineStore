@@ -1,0 +1,223 @@
+*{
+  box-sizing: border-box;
+
+}
+
+a {
+  color:#712B42;
+ 
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+/* Colores */
+.fucsia{
+  background-color: #C23C5E;
+}
+.bordo{
+  background-color: #712B42;
+}
+.negro{
+  background-color: #0C0910;
+}
+.beige{
+  background-color: #DAC9C1;
+}
+.marron{
+  background-color: #726765;
+}
+/*----menu de navegación----*/
+.nav-item.nav-link{
+      color : #C23C5E !important;
+      font-size: 16px;
+      }
+/*----footer----*/
+.pie-footer{
+      background-color : #C23C5E !important;
+      color: white;
+      }
+.pie-footer h6{
+     font-size: 12px;
+      }
+
+ 
+/*----Ventana Modal----*/
+ .modal{
+   width: 100%;
+   height: 100vh;
+   background: rgba(0,0,0,0.8);
+   position:absolute;
+   top:0;
+   left:0;
+   display:flex;
+ }
+ .contenido {
+   margin: auto;
+   width: 40%;
+   border-radius: 10px;
+   background-color: #712B42;
+   color: white;
+   text-align: center;
+ }
+#cerrar{
+  display: none;
+}
+.contenido .submit{
+  margin: auto;
+  background-color: #DAC9C1;
+  color: black;
+  border-radius:5px;
+  width: 50px;
+}
+
+/*----Boton buscar del menu----*/
+.btn-buscar {
+  border: none;
+  background-color: #343a40 !important;
+  color: white;
+}
+/*----Formulario buscar del menu----*/
+.form-buscar{
+   margin: auto;
+}
+.inp-buscar{
+   max-width: 100px;
+   height: 25px;
+}
+
+
+
+
+
+.banner{
+  height: 300px;
+}
+
+
+
+
+
+.hidden{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
