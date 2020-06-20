@@ -1,0 +1,43 @@
+<!-- Incluye Head y Header -->
+<%- include('./partials/head.ejs')%> 
+<%- include('./partials/header.ejs')%>
+
+<div class="section__content section__content--p30">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="mr-2 fa fa-align-justify"></i>
+                        <strong class="card-title" v-if="headerText">Carrito</strong>
+                    </div>
+                    <div class="card-body">
+
+
+                        <div class="table-responsive m-b-40">
+                            <table class="table table-borderless table-data3" id="carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Cantidad</th>
+                                        <th>Descripción</th>
+                                        <th>Precio Unitario</th>
+                                        <th>Precio Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Incluye Footer -->
+<%- include('./partials/footer.ejs') %>
