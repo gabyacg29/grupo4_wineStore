@@ -18,13 +18,23 @@
                             <table class="table table-borderless table-data3" id="carrito">
                                 <thead>
                                     <tr>
-                                        <th>Cantidad</th>
-                                        <th>Descripción</th>
-                                        <th>Precio Unitario</th>
+                                       <th>Cantidad</th>
+                                       <th>Descripción</th>
+                                       <th>Precio Unitario</th>
                                         <th>Precio Total</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <tr>
+                                            <% usercart.foreach( item=>{%>
+                                               <td> <%= item.Cantidad %></td>
+                                               <td> <%= item.Descripcion %></td>
+                                               <td>><%= item.Precio %></td>
+                                               <td>><%= item.Cantidad*item.Precio %></td>
+                                                                                 
+                                            <%})%>
+                                                    
+                                </tr>
 
                                 </tbody>
                             </table>
