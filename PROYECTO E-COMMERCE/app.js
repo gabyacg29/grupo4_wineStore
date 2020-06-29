@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var methodOverride = require('method-override');
 
+// llamados de rutas
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var productsRouter = require('./routes/products');
@@ -29,7 +30,7 @@ app.use(session( { secret: 'grupo4', resave: true, saveUninitialized: true}));
 
 
 
-
+// aplicacion de ruteos
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/products', productsRouter);
