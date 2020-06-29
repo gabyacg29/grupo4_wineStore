@@ -18,21 +18,19 @@
       <a class="nav-item nav-link" href="/">Home</a>
       <a class="nav-item nav-link" href="/products">Productos</a>
     </div>
-   
+
     <div class="navbar-nav text-center">
-   
-       <a class="nav-item nav-link" href="/users/login">Ingresar</a>
-       <a class="nav-item nav-link" href="/users/carrito">
-          <i class="fa fa-shopping-cart fa-1x"></i>
-        </a>
-    
-      <a class="nav-item nav-link" href="/users/register">Registrarse</a>
-      <a class="nav-item nav-link" href="#">Salir</a>
- 
+      <% if(data.User.Categoria == "null") { %> 
+      <a class="nav-item nav-link" href="/users/login">Ingresar</a>
+      <a class="nav-item nav-link" href="/users/register">Registrarse</a> <% } %> 
+      <% if(data.User.Categoria != "null") { %> 
+      <a class="nav-item nav-link" href="#">Salir</a> <% } %>
+      <a class="nav-item nav-link" href="/users/carrito">
+        <i class="fa fa-shopping-cart fa-1x"></i> 
+      </a>
     </div>
-
-
   </div>
+  
   <form class="form-inline form-buscar mr-sm-12 mr-md-12 mr-lg-12" action="">
     <input class="form-control inp-buscar" type="text" placeholder="Buscar" />
     <button class="btn btn-success btn-buscar" type="submit">
