@@ -1,4 +1,5 @@
 var modelUsers = require("../data/users.js");
+const { check, validationResult, body } = require('express-validator');
 
 // funcion para devolver el formulario de ingreso de usuario ya registrado
 let formularioIngreso = (req, res) => {
@@ -22,9 +23,18 @@ let validacionUsuario = (req, res) => {
     };
     req.session.user = user;
     res.redirect("/");
-  } else {
-    res.redirect("/users/login");
-  }
+  } 
+    else {
+
+     res.redirect("/users/login")
+     
+        
+     
+    }
+   
+  
+  
+  
 };
 // funcion para devolver el formulario de registro de nuevo usuario
 let formularioRegistro = (req, res) => {
@@ -35,6 +45,9 @@ let formularioRegistro = (req, res) => {
 };
 // funcion para realizar el registro de nuevo ususario
 let registrandoUsuario = (req, res) => {
+  let errores = validationResult(req);
+  if (errores.isEmpty()){
+
   let {
     nombre,
     apellido,
@@ -50,6 +63,13 @@ let registrandoUsuario = (req, res) => {
   } else {
     res.redirect("/users/register");
   }
+}else{
+  
+    let data={Formulario:'FormularioRegistro'};
+    
+    res.render("usuarios",{data:data, errores:errores.errors});
+  }
+
 };
 //
 let formularioEdicion = (req, res) => {

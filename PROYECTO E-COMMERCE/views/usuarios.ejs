@@ -3,6 +3,21 @@
   <div class="row justify-content-center align-items-center">
   <div class="col-12 col-md-4 text-center pt-5 pb-5">
     <% if(data.Formulario == 'UsuarioRegistrado') { %>
+      <% if (typeof errores != 'undefined') {%>
+        <p style='color:red'>ERROR</p>
+        <Ul>
+          <% for (let i=0; i < errores.length; i++) { %>
+    
+            <li>  <%= errores[i].msg %> </li>
+        
+          <% } %>
+         
+        </Ul>
+        
+      <% } %>
+
+
+     
         <h3 class="pb-3">Ingresar</h3>
         <form action="login" method="post">
         <div class="form-group">
@@ -17,7 +32,23 @@
       </form>
     <% } %>
     <% if(data.Formulario == 'FormularioRegistro') { %>
+
+      <% if (typeof errores != 'undefined') {%>
+        <p style='color:red'>ERROR</p>
+        <Ul>
+          <% for (let i=0; i < errores.length; i++) { %>
+    
+            <li>  <%= errores[i].msg %> </li>
+        
+          <% } %>
+         
+        </Ul>
+        
+      <% } %>
+
+
       <h3 class="pb-3">Registrarse</h3>
+
         <form action="register" method="post" enctype="multipart/form-data">
           <div class="form-group">
             <label for="nombre">Nombre:</label>
