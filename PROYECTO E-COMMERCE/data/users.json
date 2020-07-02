@@ -1,56 +1,20 @@
 [
  {
-  "Nombre": "carmen",
-  "Apellido": "carmen",
-  "Email": "carmen@gmail.com",
-  "Contrasenia": "12345678",
-  "Categoria": "Cliente",
-  "Imagen": "avatar-1593121728778",
-  "id": 5
- },
- {
-  "Nombre": "marta",
-  "Apellido": "lopez",
-  "Email": "marta@gmail.com",
-  "Contrasenia": "12345678",
-  "Categoria": "Cliente",
-  "Imagen": "avatar-1593116734719",
-  "id": 4
- },
- {
-  "Nombre": "Santiago",
-  "Apellido": "Biskupovich",
-  "Email": "sanbisku@gmail.com",
-  "Contrasenia": "12345678",
+  "Nombre": "Admin",
+  "Apellido": "Admin",
+  "Email": "admin@gmail.com",
+  "Contrasenia": "$2b$10$XbE7gIRvGoAZRSlk9qOet.8dlli5BHbq/kETv4VqAseUvVsp4j8jK",
   "Categoria": "Admin",
-  "Imagen": "avatar-1592513282498",
-  "id": 3
+  "Imagen": "avatar-1593723705818",
+  "id": 1
  },
  {
-  "id": 2,
-  "Nombre": "Nombre de Prueba",
-  "Apellido": "Apellido de Prueba",
-  "Email": "emailPrueba2@gmail.com",
-  "Contrasenia": "123",
-  "Categoria": "Administrador",
-  "Imagen": "avatar-1591641006983"
- },
- {
-  "id": 1,
-  "Nombre": "Nombre de Prueba",
-  "Apellido": "Apellido de Prueba",
-  "Email": "emailPrueba@gmail.com",
-  "Contrasenia": "123",
+  "Nombre": "Cliente",
+  "Apellido": "Cliente",
+  "Email": "cliente@gmail.com",
+  "Contrasenia": "$2b$10$EE8XJv7xMRKB1RkLWHMsTu5ROHO6g1it4hOGpV2d9UyASiD7s1Bei",
   "Categoria": "Cliente",
-  "Imagen": "avatar-1591641006983"
- },
- {
-  "Nombre": "caro",
-  "Apellido": "caro",
-  "Email": "caro@gmail.com",
-  "Contrasenia": "$2b$10$161PYAGlyc8kMnYOFt.1AOJJY32h5tKoGWlAvuD9vsvz7ysSqPJDq",
-  "Categoria": "Cliente",
-  "Imagen": "avatar-1593471899097",
-  "id": 6
+  "Imagen": "avatar-1593723870541",
+  "id": 2
  }
 ]
