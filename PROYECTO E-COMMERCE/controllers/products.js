@@ -68,18 +68,14 @@ let formularioEdicion = (req, res) => {
 };
 // funcion para cargar edicion del producto
 let editandoProducto = (req, res) => {
-    console.log(req.params.id);
     let id = req.params.id;
     let {nombre,descripcion,categoria,color,precio} = req.body;
     modelProducts.Modificacion(id,nombre,descripcion,categoria,color,precio);
     res.redirect('/products');
 };
-// funcion para eliminacion de producto
 let eliminandoProducto = (res, req) => {
-    console.log("Entro -");
-    console.log(req.params.id);
-    console.log(" Leido")
-    // modelProducts.Baja(id);
+    let id = req.params.id;
+    modelProducts.Baja(id);
     res.redirect('/products');
 };
 
