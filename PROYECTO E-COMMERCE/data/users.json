@@ -1,12 +1,12 @@
 [
  {
-  "Nombre": "Admin",
-  "Apellido": "Admin",
-  "Email": "admin@gmail.com",
-  "Contrasenia": "$2b$10$XbE7gIRvGoAZRSlk9qOet.8dlli5BHbq/kETv4VqAseUvVsp4j8jK",
-  "Categoria": "Admin",
-  "Imagen": "avatar-1593723705818",
-  "id": 1
+  "Nombre": "caro",
+  "Apellido": "caro",
+  "Email": "caro@gmail.com",
+  "Contrasenia": "$2b$10$KgywtqtVd/ZvmntyDpxk4ecb/NQUaT2fKCOvTRrb.eyDD/XDwyE36",
+  "Categoria": "cliente",
+  "Imagen": "avatar-1593973365110",
+  "id": 3
  },
  {
   "Nombre": "Cliente",
@@ -16,5 +16,23 @@
   "Categoria": "Cliente",
   "Imagen": "avatar-1593723870541",
   "id": 2
+ },
+ {
+  "Nombre": "Admin",
+  "Apellido": "Admin",
+  "Email": "admin@gmail.com",
+  "Contrasenia": "$2b$10$XbE7gIRvGoAZRSlk9qOet.8dlli5BHbq/kETv4VqAseUvVsp4j8jK",
+  "Categoria": "Admin",
+  "Imagen": "avatar-1593723705818",
+  "id": 1
+ },
+ {
+  "Nombre": "pato",
+  "Apellido": "pato",
+  "Email": "pato@gmail.com",
+  "Contrasenia": "$2b$10$EeEDzhA11QflNKJLuZudNuTiOW33xIz4MmMfrGZBd/1JnXusQ2pQm",
+  "Categoria": "cliente",
+  "Imagen": "default-user.png",
+  "id": 4
  }
 ]

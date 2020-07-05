@@ -58,7 +58,12 @@ let registrandoUsuario = (req, res) => {
     } = req.body;
     
 
-    let imagen = req.file.filename; // se toma el nombre del archivo
+    let imagen;
+    if (typeof req.file === 'undefined') {
+      imagen = 'default-user.png';
+    } else {
+      imagen = req.file.filename; // se toma el nombre del archivo
+    }
     if (contrasenia == contrasenia2) {
       
       contrasenia = bcrypt.hashSync(contrasenia, 10);
