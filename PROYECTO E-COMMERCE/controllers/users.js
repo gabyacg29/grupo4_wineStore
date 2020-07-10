@@ -6,6 +6,7 @@ const bcrypt = require('bcrypt');
 let formularioIngreso = (req, res) => {
   let data = {
     Formulario: "UsuarioRegistrado",
+   
   };
   res.render("usuarios", { data: data });
 };

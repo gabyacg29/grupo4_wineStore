@@ -20,14 +20,19 @@
     </div>
 
     <div class="navbar-nav text-center">
-      <% if(data.User.Categoria == "null") { %> 
+
+      <% if (data.User.id) { %>
+        <a class="nav-item nav-link" href="#">Perfil</a>
+        <a class="nav-item nav-link" href="/users/carrito">
+          <i class="fa fa-shopping-cart fa-1x"></i> 
+        </a>
+        <a class="nav-item nav-link" href="#">Salir</a>
+      
+      <% } else { %>
+      
       <a class="nav-item nav-link" href="/users/login">Ingresar</a>
-      <a class="nav-item nav-link" href="/users/register">Registrarse</a> <% } %> 
-      <% if(data.User.Categoria != "null") { %> 
-      <a class="nav-item nav-link" href="#">Salir</a> <% } %>
-      <a class="nav-item nav-link" href="/users/carrito">
-        <i class="fa fa-shopping-cart fa-1x"></i> 
-      </a>
+      <a class="nav-item nav-link" href="/users/register">Registrarse</a>
+      <% } %>
     </div>
   </div>
   
