@@ -17,4 +17,6 @@ router.get("/:id/edit", usersController.FormEdicion);
 router.put("/:id", usersController.Editando);
 router.get("/:id", usersController.Detalle);
 
+//router.get('/users',usersControllers.User);
+
 module.exports = router;

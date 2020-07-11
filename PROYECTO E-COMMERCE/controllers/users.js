@@ -81,10 +81,11 @@ let registrandoUsuario = (req, res) => {
   }
 };
   //
-  let formularioEdicion = (req, res) => {
+  /*let formularioEdicion = (req, res) => {
     res.render("index", { title: "Formulario de Edicion" });
     // momentaneamente sin utilizar.
-  };
+    */
+  
   let detalleUsuario = (req, res) => {
     console.log(req.session.user);
     if (req.session.user) {
@@ -103,12 +104,20 @@ let registrandoUsuario = (req, res) => {
       res.redirect("/users/login");
     }
   };
-
+ 
+/*
+     let user= (req, res) => {
+      let data = {
+        Formulario: "MisDatos",
+        User:req.session.user
+      };
+      res.render("usuarios", { data: data });
+*/
   // funcion borrador hasta que se completa cada controlador.
   function prueba(res, req) {
     res.send("corriendo");
   }
-
+     
   module.exports = {
     FormIngreso: formularioIngreso,
     Ingreso: validacionUsuario,
@@ -117,4 +126,5 @@ let registrandoUsuario = (req, res) => {
     FormEdicion: prueba,
     Editando: prueba,
     Detalle: detalleUsuario,
+    //User:user
   };
