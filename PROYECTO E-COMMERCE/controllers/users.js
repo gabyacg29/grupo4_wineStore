@@ -82,10 +82,11 @@ let registrandoUsuario = (req, res) => {
   }
 };
   //
-  let formularioEdicion = (req, res) => {
+  /*let formularioEdicion = (req, res) => {
     res.render("index", { title: "Formulario de Edicion" });
     // momentaneamente sin utilizar.
-  };
+    */
+  
   let detalleUsuario = (req, res) => {
     console.log(req.session.user);
     if (req.session.user) {
@@ -117,7 +118,7 @@ let registrandoUsuario = (req, res) => {
   function prueba(res, req) {
     res.send("corriendo");
   }
-
+     
   module.exports = {
     FormIngreso: formularioIngreso,
     Ingreso: validacionUsuario,

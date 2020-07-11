@@ -18,4 +18,6 @@ router.put("/:id", usersController.Editando);
 router.get("/profile", usersController.Detalle);
 router.get("/logout", usersController.Salir )
 
+//router.get('/users',usersControllers.User);
+
 module.exports = router;
