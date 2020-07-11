@@ -1,4 +1,4 @@
-<%- include('./partials/head.ejs')%> <%- include('./partials/headerprueba.ejs')%>
+<%- include('./partials/head.ejs')%> <%- include('./partials/header.ejs')%>
 <div class="row justify-content-center align-items-center">
  
   <div class="col-12 col-md-4 text-center pt-5 pb-5">
@@ -78,9 +78,9 @@
     <% } %>
     <% if(data.Formulario == 'MisDatos') { %>
     <h3 class="pb-3">Mi Informacion</h3>
-    <form action="<%= data.usuario.id+'/edit' %>" method="post" enctype="multipart/form-data">
+    <form action="<%= data.User.id+'/edit' %>" method="post" enctype="multipart/form-data">
       <div class="form-group">
-        <img src="<%= '/img/avatar/'+data.usuario.Imagen %>">
+        <img src="<%= '/img/avatar/'+data.User.Imagen %>">
         <div class="input-group justify-content-center align-items-center">
           <label class="input-group-btn">
             <span class="btn btn-secondary btn-file">
@@ -92,16 +92,16 @@
       </div>
       <div class="form-group">
         <label for="nombre">Nombre:</label>
-        <input type="text" class="form-control" id="nombre" name="nombre" value="<%= data.usuario.Nombre %>" required />
+        <input type="text" class="form-control" id="nombre" name="nombre" value="<%= data.User.Nombre %>" required />
       </div>
       <div class="form-group">
         <label for="apellido">Apellido:</label>
-        <input type="text" class="form-control" id="apellido" name="apellido" value="<%= data.usuario.Apellido %>"
+        <input type="text" class="form-control" id="apellido" name="apellido" value="<%= data.User.Apellido %>"
           required />
       </div>
       <div class="form-group">
         <label for="mail">Email:</label>
-        <input type="email" class="form-control" id="mail" name="email" value="<%= data.usuario.Email %>" required />
+        <input type="email" class="form-control" id="mail" name="email" value="<%= data.User.Email %>" required />
       </div>
       <div class="form-group">
         <label for="contrasenia">Contraseña:</label>
@@ -113,7 +113,7 @@
       </div>
       <div class="form-group">
         <label for="categoria">Categoria:</label>
-        <input type="text" class="form-control" id="categoria" name="categoria" value="<%= data.usuario.Categoria %>"
+        <input type="text" class="form-control" id="categoria" name="categoria" value="<%= data.User.Categoria %>"
           required />
       </div>
       <button type="submit" class="btn btn-success mt-3">Actualizar</button>

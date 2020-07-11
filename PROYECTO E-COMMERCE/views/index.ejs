@@ -131,29 +131,29 @@
     
       <div class="col-sm-12 modal-age">
         <h2>Bienvenido</h2>
-        <h6>Tenés que tener al menos 18 años para ingresar.</h6>-->
+        <h6>Tenés que tener al menos 18 años para ingresar.</h6>
          
-        <!-- <estan los botones pero no funcionan> 
+         <estan los botones pero no funcionan> 
           <a class="btn btn-primary" href="#" role="button">Soy Mayor</a>
         <a class="btn btn-primary" href="advert.ejs" role="button">Soy Menor</a>
       </div>
     </div>
   </div>
-</div>-->
+</div>
+-->
 
 
 
 
 
 
-<% if(data.User.id){ %>
 <!-- Productos -->
 <div class="container products-wrapper">
   <div class="row pt-md-5 pb-md-5">
     <%- include('./producto.ejs') %>
   </div>
 </div>
-<% } %>
+
 <% if(data.User.Categoria == 'Admin'){ %>
 <div class="row justify-content-center align-items-center">
   <div class="col-8 col-md-2 pt-5 pb-5">

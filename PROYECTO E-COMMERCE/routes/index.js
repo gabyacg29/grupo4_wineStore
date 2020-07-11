@@ -8,10 +8,10 @@ router.get("/", function (req, res, next) {
   let user = {
     Categoria: "null",
   };
-  let productos = [];
+  let productos = modelProducts.Consulta();
   if (req.session.user) {
     user = req.session.user;
-     productos = modelProducts.Consulta();
+    
   }
   let data = {
     Formulario: "Home",

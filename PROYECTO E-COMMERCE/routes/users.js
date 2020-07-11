@@ -15,6 +15,7 @@ router.post("/register", middles.CargarAvatar, [
      usersController.Registrando);
 router.get("/:id/edit", usersController.FormEdicion);
 router.put("/:id", usersController.Editando);
-router.get("/:id", usersController.Detalle);
+router.get("/profile", usersController.Detalle);
+router.get("/logout", usersController.Salir )
 
 module.exports = router;

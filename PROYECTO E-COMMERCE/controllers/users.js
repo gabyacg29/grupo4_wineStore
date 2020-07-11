@@ -6,6 +6,7 @@ const bcrypt = require('bcrypt');
 let formularioIngreso = (req, res) => {
   let data = {
     Formulario: "UsuarioRegistrado",
+    User: 'null'
    
   };
   res.render("usuarios", { data: data });
@@ -26,7 +27,7 @@ let validacionUsuario = (req, res) => {
 
     req.session.user = user;
     res.cookie('userCookie', user.id, { maxAge: 70000 * 120 })
-    res.redirect("/");
+    res.redirect("/users/profile");
 
   } else { 
     
@@ -93,7 +94,7 @@ let registrandoUsuario = (req, res) => {
       if (usuarioExiste != null) {
         let data = {
           Formulario: "MisDatos",
-          usuario: usuarioExiste,
+          User: usuarioExiste,
         };
         res.render("usuarios", { data: data });
       } else {
@@ -103,6 +104,14 @@ let registrandoUsuario = (req, res) => {
       res.redirect("/users/login");
     }
   };
+  let logout = (req, res) => {
+
+    req.session.destroy();
+    res.cookie('userCookie', null, { maxAge: 1 });
+    
+   
+    res.redirect('/')
+  }
 
   // funcion borrador hasta que se completa cada controlador.
   function prueba(res, req) {
@@ -117,4 +126,5 @@ let registrandoUsuario = (req, res) => {
     FormEdicion: prueba,
     Editando: prueba,
     Detalle: detalleUsuario,
+    Salir: logout
   };
