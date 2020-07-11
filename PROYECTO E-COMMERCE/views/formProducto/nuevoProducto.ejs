@@ -1,62 +1,65 @@
-<form action="/products" method="POST" enctype="multipart/form-data">
-  <div class="row align-items-center pt-5 pb-5 border border-secondary rounded">
-    <div class="col-12 col-md-6 text-center pt-5">
-      <div class="form-group">
-        <div class="input-group justify-content-center align-items-center">
-          <label class="input-group-btn">
-            <span class="btn btn-secondary btn-file">
-              Subir Imagen
-              <input
-                accept=".jpg,.png,.jpeg,.gif"
-                name="producto"
-                type="file"
-                id="producto"
-                class="hidden"
-              />
-            </span>
-          </label>
-        </div>
+<div class='container-fluid' id='registroC'>
+  <div class='row' id='form'>
+      <div class="sm-col-4 md-col-12 lg-col-8" id="registro">
+
+
+
+          <h3>Alta de productos</h3>
+         
+
+          <p>Por favor llene los campos indicados </p>
+
+          
+
+          <form action='/products/create' method='POST' enctype='multipart/form-data'>
+
+
+
+              <p><label for='nombre'>Nombre</label></p>
+              <p> <input type='text' name='nombre' id='nombre' class='uno'></p>
+
+              <p><label for='color'>Color</label></p>
+              <p> <input type='text' name='color' id='color' class='uno'></p>
+
+              <p><label for='categoría'>Categoría</label></p>
+              <p> <input type='text' name='categoría' id='categoría' class='uno'></p>
+
+              <p><label for='variedad'>Variedad</label></p>
+              <p> <input type='text' name='variedad' id='variedad' class='uno'></p>
+
+              <p><label for='precio'>Precio</label></p>
+              <p><input type='number' name='precio' id='precio' class='uno'></p>
+
+              <p><label for='descuento'>Descuento</label></p>
+              <p><input type='number' name='descuento' id='descuento' class='uno'></p>
+
+              <p><label for='cantidad'>cantidad</label></p>
+              <p><input type='number' name='cantidad' id='cantidad' class='uno'></p>
+
+              <p><label for='descripcionCorta'>Descripción Corta</label></p>
+              <p><textarea name='descripcionCorta' id='descripcionCorta' style='background-color: white;'
+                      class='uno'></textarea></p>
+
+
+
+              <p><label for='crianza'>crianza</label></p>
+              <p><textarea name='crianza' id='crianza' style='background-color: white;' class='uno'></textarea></p>
+
+              <p><label for='descripcionLarga'>Descripción Larga</label></p>
+              <p><textarea name='descripcionLarga' id='descripcionLarga' style='background-color: white;'
+                      class='uno'></textarea></p>
+
+
+
+              <p><label for='imagen'>Foto de producto</label></p>
+              <p class='avatar'><input type='file' name='imagen' id='imagen' class='uno'></p>
+
+              <button type="submit" class="btn btn-primary" id="btn-form">Guardar</button>
+
+
+          </form>
+
+
       </div>
-    </div>
-    <div class="col-12 col-md-6 text-center text-md-left pt-5">
-      <div class="form-group">
-        <label for="nombre">Nombre:</label>
-        <input type="text" class="form-control" id="nombre" name="nombre" />
-      </div>
-      <div class="form-group">
-        <label for="descripcion">Descripcion</label>
-        <textarea
-          class="form-control"
-          id="descripcion"
-          name="descripcion"
-        ></textarea>
-      </div>
-      <div class="form-group">
-        <label for="categoria">Categoria</label>
-        <input
-          type="text"
-          class="form-control"
-          id="categoria"
-          name="categoria"
-        />
-      </div>
-      <div class="form-group">
-        <label for="color">Color</label>
-        <input type="text" class="form-control" id="color" name="color" />
-      </div>
-      <div class="form-group">
-        <label for="precio">Precio</label>
-        <input
-          type="number"
-          step="0.01"
-          class="form-control"
-          id="precio"
-          name="precio"
-        />
-      </div>
-      <div class="form-group text-center">
-        <button type="submit" class="btn btn-secondary">Cagar Producto</button>
-      </div>
-    </div>
   </div>
-</form>
+</div>

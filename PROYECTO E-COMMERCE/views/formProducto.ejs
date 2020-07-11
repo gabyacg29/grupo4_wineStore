@@ -1,17 +1,32 @@
 <!-- Incluye Head y Header -->
 <%- include('./partials/head.ejs')%> <%- include('./partials/header.ejs')%>
-<div class="row justify-content-center align-items-center">
-  <div class="col-12 col-md-8 pt-5 pb-5">
-    <% if(data.Formulario == 'NuevoProducto'){ %>
-      <%- include('./formProducto/NuevoProducto.ejs') %>
+
+<!--------------------Agregar Producto---------------------------------------->
+<% if(data.Formulario == 'NuevoProducto'){ %>
+
+  <%- include("./forms/nuevoProducto")%>
+  
+  <% } %>
+  
+<!-----------------------Editar Producto------------------------------------->
+
+   <% if(data.Formulario == 'ModificarProducto'){ %>
+
+  <%- include("./forms/modificarProducto")%>
+  
+  <% } %>
+
+  <!-----------------------Eliminar Producto------------------------------------->
+
+  <% if(data.Formulario == 'DeleteProducto'){ %>
+
+    <%- include("./forms/deleteProducto")%>
+    
     <% } %>
-    <% if(data.Formulario == 'EdicionProducto'){ %>
-      <%- include('./formProducto/modificaProducto.ejs') %>
-    <% } %>
-    <% if(data.Formulario == 'DetalleProducto'){ %>
-      <%- include('./formProducto/detalleProducto.ejs') %>
-    <% } %>
-  </div>
-</div>
+  
+  <!--------------------------
+
+
+
 <!-- Incluye Footer -->
 <%- include('./partials/footer.ejs') %>
