@@ -1,4 +1,4 @@
-const db = require (path.join (__dirname, ("..")+'/database/models/index'))
+const db = require('../database/models/index.js')
 
 
 
