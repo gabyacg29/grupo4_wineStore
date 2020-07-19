@@ -26,7 +26,9 @@ let validacionUsuario = (req, res) => {
     };
 
     req.session.user = user;
-    res.cookie('userCookie', user.id, { maxAge: 70000 * 120 })
+   
+
+    res.cookie('userCookie', usuarioLogueado.id, { maxAge: 70000 * 120 })
     res.redirect("/users/profile");
 
   } else { 
